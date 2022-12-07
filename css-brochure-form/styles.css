@@ -1,7 +1,7 @@
-/* header h1 {
+header h1 {
   text-align: center;
   text-transform: uppercase;
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   color: rgb(236 93 87);
   letter-spacing: 1px;
@@ -11,7 +11,7 @@
 form {
   width: 50%;
   margin: auto;
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ select {
   border-radius: 5px;
   height: 40px;
   background-color: rgb(243 243 243);
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", sans-serif;
   font-size: 1rem;
 }
 
@@ -52,8 +52,8 @@ button {
   border-radius: 30px;
   color: white;
   background-color: rgb(236 93 87);
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", sans-serif;
   font-weight: bold;
   padding: 5px 10px;
   border: none;
-} */
+}
