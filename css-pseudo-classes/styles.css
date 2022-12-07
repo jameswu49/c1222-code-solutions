@@ -1,0 +1,14 @@
+button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
