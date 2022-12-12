@@ -20,7 +20,7 @@ body {
 }
 
 .col-one-third {
-  width: calc(100% / 3);
+  flex-basis: calc(100% / 3);
 }
 
 .lato-font {
