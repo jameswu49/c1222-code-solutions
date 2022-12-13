@@ -1,5 +1,5 @@
 .container {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -17,6 +17,10 @@ body {
 
 .width-100 {
   width: 100%;
+}
+
+.width-110 {
+  width: 110%;
 }
 
 .font-400 {
@@ -108,4 +112,24 @@ button {
 
 .pb {
   padding-bottom: 40px;
+}
+
+.font-color {
+  color: rgb(100 100 100);
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.width-82 {
+  width: 65%;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
