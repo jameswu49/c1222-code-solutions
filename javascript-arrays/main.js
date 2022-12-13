@@ -9,6 +9,8 @@ console.log('America is ' + colors[0] + ', ' + colors[1] + ', and ' + colors[2] 
 colors[2] = 'green';
 console.log('Mexico is ' + colors[0] + ', ' + colors[1] + ', ' + colors[2] + '.');
 
+console.log('value of colors:', colors);
+
 var students = ['Mark', 'Joe', 'John', 'Jimmy'];
 var numberOfStudents = students.length;
 console.log('There are ' + numberOfStudents + ' students in the class.');
