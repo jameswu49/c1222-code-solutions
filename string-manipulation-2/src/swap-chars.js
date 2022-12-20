@@ -4,33 +4,24 @@
 
 // output: swap the first index position with the second index position of the string
 
-// create new variable and assign string to
-// replace newString's first index with second index and assign to a new variable
-// replace new variable's second index with first index of the newStrings first index and assign to a new variable
-// return final new variable
-
-// function swapChars(firstIndex, secondIndex, string) {
-//   var newString = string;
-//   var firstSwap = newString.replace(newString[firstIndex], newString[secondIndex]);
-//   var secondSwap = firstSwap.replace(firstSwap[secondIndex], newString[firstIndex]);
-//   return secondSwap;
-// }
-
-// create empty string variable
-// create for loop to loop over each letter
-// create if statement
-//   - if index of word is same as firstindex then assign secondindex to it
-//   - else if index of word is secondindex then assign firstindex to it
-// return variable
+// split string into an array
+// loop over array
+//   - start with first index as the initalizer
+//   - stop loop when it reaches the end of the split length
+//   - increment by one at the end of loop
+// if statement
+//   - if string index is equal to first input, then swap it with the second one
+//   - else swap second input with first one
+// join and return array as a string
 
 function swapChars(firstIndex, secondIndex, string) {
-  var split = string.split();
-  for (let i = 0; i < split.length; i++) {
-    if (split[i] === split[firstIndex]) {
+  var split = string.split('');
+  for (var i = firstIndex; i < split.length; i++) {
+    if (split[i] === string[firstIndex]) {
+      split[i] = string[secondIndex];
+    } else if (split[i] === string[secondIndex]) {
       split[i] = string[firstIndex];
-    } else if (split[i] === split[secondIndex]) {
-      split[i] = split[secondIndex];
     }
   }
-  return split;
+  return split.join('');
 }
