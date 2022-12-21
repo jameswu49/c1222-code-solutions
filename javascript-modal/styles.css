@@ -31,7 +31,7 @@ body {
   font-weight: bolder;
   border-radius: 5px;
   padding: 70px 20px;
-  box-shadow: 0 0 0 1000px rgb(0 0 0 / 50%);
+  box-shadow: 0 0 0 100vw rgb(0 0 0 / 80%);
 }
 
 .redbtn {
@@ -47,11 +47,7 @@ body {
   cursor: pointer;
 }
 
-.none {
-  display: none;
-}
-
-.flex {
+.row {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
@@ -60,4 +56,8 @@ body {
 
 h2 {
   margin-top: 0;
+}
+
+.none {
+  display: none;
 }
