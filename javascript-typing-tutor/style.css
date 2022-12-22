@@ -4,16 +4,55 @@
 
 body {
   margin: 0;
-  max-height: 100vh;
+  font-family: "Zilla Slab", sans-serif;
+  font-size: 35px;
 }
 
-.container {
+.letters {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btn {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  margin-top: 60px;
+}
+
+.done {
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-size: large;
+  border: none;
+}
+
+.center {
+  text-align: center;
 }
 
 .space {
-  white-space: normal;
+  white-space: pre;
+}
+
+.correct {
+  color: limegreen;
+  white-space: pre;
+}
+
+.wrong {
+  color: red;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  white-space: pre;
+}
+
+.hide {
+  display: none;
 }
