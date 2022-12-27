@@ -15,7 +15,7 @@ function check(event) {
     $span[counter].className = 'wrong underline';
     accuracy++;
   }
-  $accuracy.textContent = `Typing Accuracy: ${accuracy}`;
+  $accuracy.textContent = `Words Typed Wrong: ${accuracy}`;
 }
 
 $body.addEventListener('keydown', check);
