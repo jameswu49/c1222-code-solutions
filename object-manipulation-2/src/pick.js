@@ -11,12 +11,13 @@
 //   - if it does, assign key and value of the key to empty object
 // return empty object
 
-function pick(source, keys) {
-  var object = {};
-  for (var key in source) {
-    if (keys.includes(key)) {
-      object[key] = source[key];
-    }
-  }
-  // console.log('value of', object);
-}
+// function pick(source, keys) {
+//   var object = {};
+//   for (var key in source) {
+//     if (keys.includes(key)) {
+//       object[key] = source[key];
+//     }
+//   }
+//   console.log(object);
+//   return object;
+// }
