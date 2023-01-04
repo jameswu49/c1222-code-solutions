@@ -9,12 +9,14 @@
 //   - if it doesn't, assign that current object key and value to empty object
 // return empty object
 
-// function omit(source, keys) {
-//   var object = {};
-//   for (var key in source) {
-//     if (!keys.includes(key)) {
-//       object[key] = source[key];
-//     }
-//   }
-//   return object;
-// }
+function omit(source, keys) {
+  var object = {};
+  for (var key in source) {
+    if (!keys.includes(key)) {
+      object[key] = source[key];
+    }
+  }
+  return object;
+}
+
+omit();
