@@ -34,7 +34,7 @@ Bank.prototype.getTotalAssets = function () {
   return total;
 };
 
-var bank = new Bank();
-var one = bank.openAccount('Jeff Jefferson', 10);
-var first = bank.getAccount(one);
-first.deposit(5);
+// var bank = new Bank();
+// var one = bank.openAccount('Jeff Jefferson', 10);
+// var first = bank.getAccount(one);
+// first.deposit(5);
