@@ -1,0 +1,33 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle.on {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(253 236 84 / 70.8%);
+  box-shadow: 0 0 15px 0 rgb(255 255 0 / 75.6%);
+}
+
+.on {
+  background-color: rgb(255 249 218);
+}
+
+.circle.off {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(23 20 20);
+}
+
+.off {
+  background-color: black;
+}
